@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 10pc;
+    height: 10pc;
+}
+.SENA{
+    width: 8pc;
+    height: 8pc;
+    position: relative;
+    left: 34%;
+    display: flex;
+}
+.IDETH{
+    width: 9pc;
+    height: 8pc;
+    position: relative;
+    right: 30%;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    padding-left: 10px;
+}
+.primera-respuesta{
+    padding-top: 2pc;
+    border-radius: 1pc;
+
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(174, 214, 241);
+    border-radius: 1pc;
+    border-color: skyblue;
+    border-width: 4px;
+    width: 15pc;
+    height: 4pc;
+    
+}
+.segunda-respuesta{
+    padding-top: 2pc;
+    border-radius: 1pc;
+}
+.tercera-respuesta{
+    padding-top: 2pc;
+    border-radius: 1pc;
+    
+}
+.contenedor-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(171, 235, 198);
+    width: 30pc;
+    height: 5pc;
+    border-radius: 1pc;
+}
+.Titulo{
+    height: 7pc;
+}
